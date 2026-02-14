@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
     <h2>Registro de Usuario</h2>
-    <asp:Label ID="lblMensaje" runat="server" ForeColor="Red"></asp:Label>
+   
     <asp:Panel ID="pnlRegistro" runat="server">
         <asp:Label ID="lblNombre" runat="server" Text="Nombre:"></asp:Label>
         <asp:TextBox ID="txtNombre" runat="server"></asp:TextBox>
@@ -14,6 +14,8 @@
         <asp:TextBox ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox>
         <br />
         <asp:Button ID="btnRegistrar" runat="server" Text="Registrar" OnClick="btnRegistrar_Click" />
+
+          <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     </asp:Panel>
     
 

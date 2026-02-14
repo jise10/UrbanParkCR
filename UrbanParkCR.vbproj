@@ -264,7 +264,7 @@
     </Compile>
     <Compile Include="Registro.aspx.vb">
       <DependentUpon>Registro.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.vb">
       <DependentUpon>Site.Master</DependentUpon>
